@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.font-space-mono {
+    font-family: "Space Mono", serif;
+  }
+
+
+
+/* shadow initialization */
+.solid-2px-black {
+    box-shadow: 3px 3px black;
+}
+
+
+/* Page Scrolling Effect */

@@ -1,9 +1,10 @@
 import React from 'react'
+import HomePageLayout from './Components/HomePage/HomePageLayout'
 
 const App = () => {
   return (
-    <div>
-      <h1>This is the home page</h1>
+    <div className='overflow-hidden'>
+      <HomePageLayout />
     </div>
   )
 }
