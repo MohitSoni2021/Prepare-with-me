@@ -52,7 +52,7 @@ const WhatDoYouWantToLearnSection = () => {
 
   // Handle Generate Options 
   const handleGenerateTestOptions = () => {
-    // changeTo('/datadashboard')
+    changeTo('/datadashboard')
     console.log(selectedLanguage)
     console.log(SELECTED_TOPICS)
     console.log(difficulty)
