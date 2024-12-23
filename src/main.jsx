@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import LandingPageComponent from './Components/LandingPage/LandingPage.jsx'
+import QuizDashboardPageLayout from './Components/QuizDashboard/QuizDashboardPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -13,6 +14,10 @@ const router = createBrowserRouter([
   {
     path: '/home',
     element: <App />
+  },
+  {
+    path: '/datadashboard',
+    element: <QuizDashboardPageLayout />
   }
 ])
 
